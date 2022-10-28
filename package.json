@@ -1,0 +1,36 @@
+{
+  "name": "brisDark",
+  "displayName": "TeneBris",
+  "description": "The theme you might not want to miss",
+  "version": "0.0.3",
+  "publisher": "TeneBris",
+  "repository": { 
+    "type": "git",
+    "url":"https://github.com/yaksh1/vs_code-theme"
+  },
+  "keywords":[
+    "theme",
+    "dark theme",
+    "dark",
+    "theme",
+    "blue",
+    "blue theme",
+    "tenebris",
+    "tenebris theme"
+  ],
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tenebris",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tenebris-color-theme.json"
+      }
+    ]
+  }
+}
